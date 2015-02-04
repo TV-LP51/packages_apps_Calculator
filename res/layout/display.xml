@@ -20,7 +20,7 @@
     android:id="@+id/display"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/white_card"
+    android:background="#000000"
     android:orientation="vertical">
 
     <FrameLayout
@@ -33,7 +33,7 @@
             android:id="@+id/mainDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/white">
+            android:background="#000000">
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/historyRecycler"
